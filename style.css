@@ -30,17 +30,16 @@ body::-webkit-scrollbar-thumb {
 }
 .container {
   max-width: 1400px;
-  /*margin: 20px;*/
-  /* border-radius: 10px; */
-  display: flex;
-  /* padding: 20px; */
-  padding: 40px;
-  background-color: rgb(21 21 24 / 48%);
-  flex-direction: column;
-  backdrop-filter: blur(5px);
-  color: white;
-  user-select: none;
-  height: 100%;
+    display: flex;
+    background-color: rgb(21 21 24 / 48%);
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    color: white;
+    user-select: none;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
 }
 
 h1 {
